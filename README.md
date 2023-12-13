@@ -1,7 +1,7 @@
-# Zero share
+# Secure share
 
-[![website](https://img.shields.io/website?url=https%3A%2F%2Fzero-share.github.io)](https://zero-share.github.io/)
-[![workflow](https://img.shields.io/github/actions/workflow/status/zero-share/zero-share.github.io/static.yml)](https://github.com/zero-share/zero-share.github.io/actions/workflows/static.yml)
+[![website](https://github.com/iAdityaNarayanT/secure-share)](https://github.com/iAdityaNarayanT/secure-share)
+[![workflow]()]()
 
 A client-side secure P2P file sharing using WebRTC.
 
@@ -15,11 +15,10 @@ A client-side secure P2P file sharing using WebRTC.
 - Open-source license.
 - QR Scan for SDP trade.
 - Paste from the clipboard.
-- short SDP by [sdp-compact](https://github.com/ntsd/sdp-compact).
 
 ## Usage
 
-1. The offer goes to <https://zero-share.github.io/>.
+1. The offer goes to <https://secure-share.github.io/>.
 2. The offer generates an offer link and then sends it to the answer.
 3. The answer opens the offer link and then sends it to the offer.
 4. The offer paste the answer code then click `Accept Answer`.
@@ -98,29 +97,9 @@ npm run test
 
 ## Deployment
 
-The deployment will using this [Github Workflow](https://github.com/zero-share/zero-share.github.io/blob/main/.github/workflows/static.yml) to trigger the Github Action to build the Github Pages.
-
 For self-host, you can run `npm run build` to build the static files. This no need the server side of svelte.
 
 ## Known Issues
 
 1. Sometimes your internet will block the Google public STUN server and it may slow. I recommend to try to use a different STUN server, can check the list [here](https://github.com/pradt2/always-online-stun/blob/master/valid_hosts.txt).
 2. Sometimes gets blocked by the firewall during sending files.
-
-## Contributing
-
-We welcome contributions from the community! If you'd like to contribute to the project, follow these steps:
-
-1. Fork the repository on GitHub.
-2. Create a new branch and make changes.
-3. Test your changes by running `npm run test`.
-4. Ensure your code is properly formatted and linted by running `npm run lint` and `npm run format`.
-5. Commit and the commit message should following [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/).
-6. Create a Pull Request on the original repository, describing the changes you've made and the problem they solve.
-
-For feature requests, please open an issue on the GitHub repository to discuss your ideas with the maintainers.
-
-## License
-
-This project is 100% open-source.
-[MIT License](https://github.com/ntsd/zero-share/blob/main/LICENSE) - Copyright &copy; 2023 Jirawat Boonkumnerd.
