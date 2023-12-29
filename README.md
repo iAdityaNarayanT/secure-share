@@ -1,6 +1,6 @@
 # Secure share
 
-[![website](https://github.com/iAdityaNarayanT/secure-share)](https://github.com/iAdityaNarayanT/secure-share)
+[![website](https://github.com/iAdityaNarayanT/secure-share)]
 [![workflow]()]()
 
 A client-side secure P2P file sharing using WebRTC.
@@ -28,7 +28,7 @@ A client-side secure P2P file sharing using WebRTC.
 
 ## How does it work?
 
-Zero share client will get ICE Candidate from STUN/TURN server and make a connections between peers.
+Secure share client will get ICE Candidate from STUN/TURN server and make a connections between peers.
 
 Thanks to the Interactive Connectivity Establishment (ICE) protocol, Two peers will have the shortest path to travel between them without caring the Network address translation (NAT).
 
