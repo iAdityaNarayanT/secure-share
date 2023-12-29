@@ -1,6 +1,6 @@
 # Secure share
 
-[![website](https://github.com/iAdityaNarayanT/secure-share)]
+[![website](https://share-17ddf.web.app/)]
 [![workflow]()]()
 
 A client-side secure P2P file sharing using WebRTC.
