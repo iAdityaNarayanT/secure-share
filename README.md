@@ -18,7 +18,7 @@ A client-side secure P2P file sharing using WebRTC.
 
 ## Usage
 
-1. The offer goes to <https://secure-share.github.io/>.
+1. The offer goes to <https://share-17ddf.web.app//>.
 2. The offer generates an offer link and then sends it to the answer.
 3. The answer opens the offer link and then sends it to the offer.
 4. The offer paste the answer code then click `Accept Answer`.
